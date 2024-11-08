@@ -45,10 +45,14 @@ kubectl get pod
 
 1. Создать Pod с именем netology-web.
 
+[netology-web.yaml](https://github.com/sash3939/Kubernetes2-Base_Objects/blob/main/netology-web.yaml)
+
 <img width="314" alt="2 Pods" src="https://github.com/user-attachments/assets/b03bcb85-41c4-4ed5-b55a-d1a1234e935d">
 
 2. Использовать image — gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
 3. Создать Service с именем netology-svc и подключить к netology-web.
+
+[netology-svc.yaml](https://github.com/sash3939/Kubernetes2-Base_Objects/blob/main/netology-svc.yaml)
 
 <img width="329" alt="Service" src="https://github.com/user-attachments/assets/8257b330-0c7c-409d-9d5a-2b1f3391807e">
 
